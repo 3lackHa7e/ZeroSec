@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Settings</title>
+</head>
+<body>
+    <h1>Server Settings</h1>
+    <form>
+        <label for="server-name">Server Name:</label><br>
+        <input type="text" id="server-name" name="server-name"><br><br>
+        <label for="max-players">Max Players:</label><br>
+        <input type="number" id="max-players" name="max-players" min="1"><br><br>
+        <label for="game-mode">Game Mode:</label><br>
+        <select id="game-mode" name="game-mode">
+            <option value="survival">Survival</option>
+            <option value="creative">Creative</option>
+            <option value="adventure">Adventure</option>
+        </select><br><br>
+        <input type="submit" value="Save Settings">
+    </form>
+</body>
+</html>
